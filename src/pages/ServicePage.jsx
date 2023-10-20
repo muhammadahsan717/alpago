@@ -1,9 +1,6 @@
 import React, { Fragment } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Autoplay } from 'swiper/modules';
-import nike from '../assets/logos/black-and-white-brand-pattern-nike-logo-png.jpg'
-import logo1 from '../assets/logos/images (1).png'
-import logo2 from '../assets/logos/images.png'
 import 'swiper/css';
 import 'swiper/css/navigation';
 
