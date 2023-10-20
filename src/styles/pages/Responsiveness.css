@@ -1,0 +1,594 @@
+@media screen and (max-width: 1440px) 
+{
+    .dash-boxx{
+        width: 400px;
+    }
+
+    .dash-box-num{
+        font-size: 170px;
+        font-weight: 700;
+        line-height: 220px;
+    }
+}
+
+@media screen and (max-width: 1386px) 
+{
+    .dash-boxx{
+        width: 380px;
+    }
+
+    .inside-dash-box{
+        width: 100%;
+    }
+
+    .dash-box-num{
+        font-size: 160px;
+        font-weight: 600;
+        line-height: 220px;
+    }
+
+    .dash-box-desc{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    .detailsss-img-box{
+        width: 100px;
+        height: 100px;
+        border-radius: 9px;
+        gap: 8px;
+    }
+
+    .detailsssss-name{
+        font-size: 22px;
+    }
+    .detailsssss-email{
+        font-size: 22px;
+    }
+
+    .detailsssss-emails{
+        font-size: 22px;
+    }
+
+    .detailsssss-contact{
+        font-size: 22px;
+    }
+
+    .detailsssss-icons{
+        font-size: 22px;
+        gap: 15px;
+        width: 10%;
+    }
+
+    .detailsss-iconsss{
+        width: 32px;
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 1200px) 
+{
+    .dash-boxx{
+        width: 330px;
+    }
+
+    .completedSwiper{
+        margin-top: 50px;
+    }
+
+    .inside-dash-box{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .dash-box-num{
+        font-size: 160px;
+        font-weight: 600;
+        line-height: 220px;
+    }
+
+    .dash-box-desc{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+    
+    .about-textareas{
+        width: 90%;
+        padding-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .Service-Form{
+        width: 100%;
+    }
+
+    .Service-Image-Form{
+        width: 100%;
+        min-height: 545px;
+        gap: 10px;
+    }
+
+    .detailsss{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detailsss-lead{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .detailsssss-name{
+        width: 100%;    
+    }
+    .detailsssss-email{
+        width: 100%;    
+    }
+
+    .detailsssss-emails{
+        width: 100%;    
+    }
+
+    .detailsssss-contact{
+        width: 100%;    
+    }
+
+    .detailsssss-icons{
+        width: 100%;
+        justify-content: flex-start;    
+    }
+
+    .detailsss-image-video{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .detailsss-name{
+        width: 100%;
+    }
+
+    .detailsss-icons{
+        justify-content: flex-start;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .detailsss-icons-construction{
+        justify-content: flex-start;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .imgIcon-inside{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;  
+    }
+
+    .Footer-main-list{
+        width: 90%;
+    }
+
+    .Footer-main-list li{
+        width: 18%;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 992px) 
+{
+    .multiple-form{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .form-home-heading{
+        width: 80%;
+        padding-top: 70px;
+    }
+
+    .AboutPage-Content-Main p{
+        font-size: 14px;
+        letter-spacing: 2px;
+        width: 100%;
+        text-transform: capitalize;
+    }
+
+    input{
+        min-width: 400px;
+    }
+    textarea{
+        min-width: 400px;
+    }
+    
+    .ServicePage-services-services p{
+        font-size: 18px;
+    }
+    
+    .ServicePage-services h2{
+        font-size: 46px;
+        letter-spacing: 4px;
+    }
+    
+    .ServicePage-services-services-swiper{
+        display: none;
+    }
+    
+    .ServicePage-partners h2{
+        font-size: 46px;
+        letter-spacing: 4px;
+    }
+    
+    .ServicePage-partners-partners p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .Dashboard-main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inside-dash{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+    }
+
+    .multiple-form-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 0em;
+        color: black;
+    }
+
+    .Home-main{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .HomePage-Content-main{
+        font-size: 48px;
+        text-align: center;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    
+    .HomePage-Content-main-small{
+        font-size: 34px;
+        letter-spacing: 2px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .ContactPage-Content-Main h2{
+        font-size: 40px;
+        letter-spacing: 2px;
+        padding-bottom: 0px;
+    }
+
+    .ContactPage-Content-Main{
+        width: 100%;
+    }
+
+    .Footer-main-list{
+        width: 100%;
+    }
+
+    .Footer-main-list li{
+        font-size: 14px;
+    }
+
+    .ServicePage-partners-partners p{
+        width: 25%;
+        font-size: 14px;
+    }
+
+    .ServicePage-services-services p{
+        width: 25%;
+        font-size: 14px;
+    }
+
+    .ServicePage-services h2{
+        font-size: 42px;
+        letter-spacing: 2px;
+    }
+    
+    .ServicePage-partners h2{
+        font-size: 42px;
+        letter-spacing: 2px;
+    }
+
+    .logosss{
+        width: 120px;
+        height: 120px;
+    }
+
+}
+
+@media screen and (max-width: 480px){
+    .ServicePage-services-services-swiper{
+        display: flex;
+        width: 100%;
+    }
+    
+    .ServicePage-services-services{
+        display: none;
+    }
+
+    .ServicePage-partners-partners-swiper{
+        display: flex;
+        width: 100%;
+    }
+
+    .ServicePage-partners-partners{
+        display: none;
+    }
+    
+    .dash-boxx{
+        width: 300px;
+    }
+
+    .outside-dash{
+        display: none;
+    }
+
+    .dash-box-num{
+        font-size: 140px;
+        font-weight: 600;
+        line-height: 220px;
+    }
+
+    .dash-box-desc{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px;
+    }
+
+    
+    .dash-offcanvas{
+        display: flex;
+        background: url('../../assets/images/bg.png');
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 20px 10px 20px;
+        align-items: center;
+    }
+    .sidebar-images{
+        width: 48px;
+        height: 50px;
+    }
+
+    .multiple-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .offcanvas-header {
+        display: flex;
+        align-items: flex-end !important;
+        justify-content: flex-end !important;
+        padding: var(--bs-offcanvas-padding-y) var(--bs-offcanvas-padding-x);
+    }
+    
+    .offcanvas-header .btn-close {
+        padding: calc(var(--bs-offcanvas-padding-y) * .5) calc(var(--bs-offcanvas-padding-x) * .5);
+        margin-top: calc(-.5 * var(--bs-offcanvas-padding-y));
+        margin-right: calc(-.5 * var(--bs-offcanvas-padding-x));
+        margin-bottom: calc(-.5 * var(--bs-offcanvas-padding-y));
+        color: white !important;
+        background-color: white;
+    }
+    
+    .form-home-heading{
+        width: 80%;
+        padding-top: 70px;
+    }
+    
+    .detailsss{
+        text-transform: uppercase;
+        display: flex;
+        flex-direction: row;
+        color: white;
+        justify-content: space-between;
+        padding: 30px 0px;
+    }
+
+    .multiple-in-p{
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .offcanvas-header {
+        display: flex !important;
+        align-items: flex-start !important;
+        justify-content: space-between !important;
+    }
+    
+    .mobilemenu {
+        background-color: #fff;
+        border-color: #fff;
+        border: initial!important;
+        width: 90px;
+        height: 40px;
+        border-radius: 10px;
+        color: #000;
+        padding: 8px 30px;
+    }
+    
+    .Navbar-main-Image-div{
+        margin-left: -10px;
+    }
+    
+    .Footer-main{
+        display: none;
+    }
+    
+    .navbar-button{
+        width: 50%;
+        margin-left: -55px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .Navbar-main-Image-div{
+        width: 50%;
+        height: 119px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .swiper-mainss{
+        min-height: 350px;
+    }
+    
+    .goPrev {
+        left: 50% !important;
+        top: 40% !important;
+        transform: rotate(90deg);
+        transform-origin: left center;
+        color: white !important;
+        margin-top: -200px !important;
+    }
+    
+    .goNext{
+        left: 50% !important;
+        transform: rotate(90deg);
+        transform-origin: left center;
+        color: white !important;
+        margin-top: 300px !important;
+    }
+    
+    .goPrevCompleted {
+        left: 2% !important;
+        color: white !important;
+    }
+    
+    
+    .goNextCompleted{
+        left: 90% !important;
+        color: white !important;
+    }
+
+    .ContactPage-Content-Main{
+        width: 100%;
+    }
+   
+    .firstComp .swiper-slide{
+        max-height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .alp{
+        width: 90%;
+        height: 280px;
+    }
+
+    .firstComp{
+        margin-top: 25px;
+    }
+
+    .ahsan{
+        width: 100px;
+        height: 100px;
+        padding-top: 10px;
+    }
+
+    input{
+        min-width: 300px;
+    }
+
+    textarea{
+        min-width: 300px;
+    }
+    .contactPage-main-button{
+        min-width: 120px;
+    }
+    .ContactPage-Content{
+        margin-top: 90px;
+    }
+    
+    .AboutPage-Content{
+        margin-top: 100px;
+    }
+
+    .AboutPage-Content-Main h2{
+        letter-spacing: 0px;
+        padding-bottom: 0px;
+    }
+
+    .AboutPage-Content-Main p{
+        font-size: 14px;
+        letter-spacing: 0px;
+        width: 100%;
+        text-transform: capitalize;
+    }
+
+    .ServicePage-main-content{
+        text-transform: capitalize;
+        text-align: center;
+    }
+
+    .ServicePage-partners{
+        width: 80%;
+    }
+
+    .ServicePage-services{
+        width: 80%;
+    }
+
+    .ServicePage-services h2{
+        font-size: 30px;
+        letter-spacing: 0px;
+    }
+    
+    .ServicePage-partners h2 {
+        font-size: 30px;
+        letter-spacing: 0px;
+    }
+
+    .ServicePage-main-content{
+        margin-top: 100px;
+        gap: 40px;
+    }
+
+    .ServicePage-services-services p{
+        width: 40%;
+    }
+    
+
+    
+}

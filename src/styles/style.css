@@ -1,0 +1,13 @@
+/* Third Party CSS */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import 'react-toastify/dist/ReactToastify.css';
+
+
+/*Pages CSS*/
+@import './pages/Main.css';
+@import './pages/Responsiveness.css';
+
+h1, h2, h3, a ,div p, span{
+    font-family: 'Montserrat', sans-serif !important;
+}
